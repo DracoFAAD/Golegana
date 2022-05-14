@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <script src="JavaScript/upcommingGameChanger.js"></script>
         <link rel="stylesheet" href="./StyleCSS/gameStyle.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
@@ -8,7 +9,7 @@
         <title>Golegana</title>
         <script src="JavaScript/responsivetopNav.js"></script>
     </head>
-    <body>
+    <body onload="loadedDocumentUpCommingGameChanger();">
         <div class="topnav" id="myTopnav">
           <img src="images/Golegana.png">
           <a href="index.html">Home</a>
@@ -16,6 +17,13 @@
           <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
           </a>
+        </div>
+
+        <div class="commingSoonSectionDIV" id="commingSoonSection">
+          <h1 id="descriptionTitle">Upcomming Games</h1>
+          <img src="upcommingGame/icon.png" alt="">
+          <h1 id="upCommingGameTitle">Game Title</h1>
+          <P id="upCommingGameDescription">Description</P>
         </div>
     </body>
 </html>
