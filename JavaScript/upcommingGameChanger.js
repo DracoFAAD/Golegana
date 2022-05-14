@@ -21,7 +21,6 @@ function loadedDocumentUpCommingGameChanger(){
     path = path.substring(0,path.lastIndexOf("/")+1);
     path += "upcommingGame/name.txt"
 
-    var text = readTextFile("file://" + path)
     window.alert("Working!")
     window.alert(path)
 }
